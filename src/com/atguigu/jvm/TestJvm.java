@@ -12,7 +12,7 @@ public class TestJvm {
 		System.out.println("MAX_MEMORY = " + maxMemory + "（字节）、" + (maxMemory / (double)1024 / 1024) + "MB");
 		System.out.println("TOTAL_MEMORY = " + totalMemory + "（字节）、" + (totalMemory / (double)1024 / 1024) + "MB");
 		//stack();
-		String str = "aa";
+		String str = "aabb";
 	/*	while(true){
 			str += str + new Random().nextInt(88888888) + new Random().nextInt(999999999) ;
 
